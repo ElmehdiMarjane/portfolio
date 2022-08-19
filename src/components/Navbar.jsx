@@ -40,16 +40,16 @@ return(
 <div onClick={handlClick} className="md:hidden z-10">
     
 
-    {!nav ? <FaBars size={25}/> :<FaTimes size={25}/>}
+    {!nav ? <FaBars className=" hover:mb-1 duration-300" size={30}/> :<FaTimes className=" hover:mb-1 duration-300" size={30}/>}
 </div>
 
 
         <ul className={!nav ? 'hidden' :'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
-            <li className="py-6 text-4xl">Home</li>
-            <li className="py-6 text-4xl">About</li>
-            <li className="py-6 text-4xl">Skills</li>
-            <li className="py-6 text-4xl">Projects</li>
-            <li className="py-6 text-4xl">Contact me</li>
+            <li className="py-6 text-4xl  hover:mb-2 duration-300">Home</li>
+            <li className="py-6 text-4xl  hover:mb-2 duration-300">About</li>
+            <li className="py-6 text-4xl  hover:mb-2 duration-300">Skills</li>
+            <li className="py-6 text-4xl  hover:mb-2 duration-300">Projects</li>
+            <li className="py-6 text-4xl  hover:mb-2 duration-300">Contact me</li>
         </ul>
 
 {/*Social Media*/}
